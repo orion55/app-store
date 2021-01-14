@@ -1,5 +1,6 @@
 {
-  "name": "kgykqgaqokg.angular",
+  "name": "angular",
+  "homepage": ".",
   "version": "11.0.0",
   "private": true,
   "dependencies": {
@@ -24,7 +25,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "make-github": "ng build && rd /S /Q docs && move dist docs"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.7",
